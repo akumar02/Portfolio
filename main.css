@@ -25,10 +25,10 @@ background-color:rgba(168,235,255,0.2);
 
 .parallax {
     /* The image used */
-    background-image: url("iage.jpg");
+    background-image: url("developer.jpg");
 
     /* Set a specific height */
-    min-height: 400px;
+    min-height: 500px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -57,7 +57,7 @@ color:white;
 }
 .left {
 	width: 50%;
-        
+
 }
 .left img{
         margin-left:25px;
@@ -71,12 +71,14 @@ color:white;
 .right p{
         float:right;
         margin-right:25px;
+        color:#2D6461;
+        font-size:5;
 }
 h2{
 	color: green;
 }
 h1{
-        color: Red;
+        color: #620D6E;
 }
 #pop{
 	width:100%;
@@ -158,6 +160,7 @@ display:none;
 }
 /* projects */
 
+
 .project{
 height:200px;
 display: flex;
@@ -231,4 +234,13 @@ z-index:0;
 margin-top:0px;
 padding:5px;
 position:absolute;
+}
+.but{
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #620D6E;
+
+}
+.but:hover {
+    background-color: white; /* Green */
 }
